@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.subcontent{
+    height: 100px;
+    width: 95%;
+    background-color: #cbb4cf52;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+}
+.context-text-paragrapgh{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.context-text-heading{
+    font-family: serif;
+}
+@media screen and (max-width:1000px) {
+    .context-text-paragrapgh{
+       font-size: 10px;
+    }
+    .context-text-heading{
+        font-size: 12px;
+    }
+    .event-section{
+        margin: 50px 0 0;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+}

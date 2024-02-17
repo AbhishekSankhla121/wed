@@ -1,0 +1,17 @@
+.background{
+    background: rgba(0, 0,0, 0.55) url(../image/foto-pettine-IfjHaIoAoqE-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.heading-title , .heading-Sub-title{
+    font-family: "Dancing Script", cursive;
+}
+
+.heading-title {
+    color: #953434eb;
+    font-size: 50px;
+}
+.heading-Sub-title{
+    font-size: 25px;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    position: sticky;
+    top: 0;
+}
+nav:hover{
+    border-color: rgb(27, 33, 33);
+    border-width: 1px;
+    border-style: solid;
+}
+ul{
+    display: flex ;
+    width: 700px;
+}
+ul li{
+    list-style: none;
+    margin: auto;
+   font-family: serif;
+   text-transform: uppercase;
+   font-size: 13px;
+   padding: 0 1px;
+}
+
+ul li:hover{
+    animation: licomponent 0.7s ease-in-out alternate;
+    border-bottom: 1px solid rgb(252, 230, 219);
+    font-size: 15px;
+   
+    
+}
+@keyframes licomponent {
+    from {
+        border-bottom: 1px solid transparent;
+    }
+    to {
+        border-bottom: 1px solid rgb(252, 230, 219);
+    }
+}
