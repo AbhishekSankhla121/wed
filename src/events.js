@@ -58,7 +58,7 @@ export default function Event() {
                             <tr>
                                 <td>Departure of Barat </td>
                                 <td>09:00 Am</td>
-                                <td >Sector 43-B, Chandigarh</td>
+                                <td >Amara hotel sector 43</td>
                             </tr>
                         
                     
